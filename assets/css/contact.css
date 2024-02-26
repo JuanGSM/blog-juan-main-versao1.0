@@ -1,0 +1,71 @@
+/* Reset básico e estilos globais já definidos */
+
+/* Estilos para os botões de mídia social */
+.social-buttons {
+  display: flex;
+  justify-content: center; /* Centraliza os botões na seção */
+  margin-bottom: 20px;
+}
+
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin: 0 10px; /* Espaçamento entre os botões */
+  color: white;
+  transition: background-color 0.3s ease;
+}
+
+.instagram {
+  background-color: #e4405f;
+}
+.whatsapp {
+  background-color: #25d366;
+}
+.facebook {
+  background-color: #3b5998;
+}
+
+.button:hover {
+  opacity: 0.9;
+}
+
+/* Estilos para o formulário de contato */
+.contact-form {
+  max-width: 800px; /* Mantém consistente com a largura do conteúdo principal */
+  margin: 20px auto; /* Centraliza e adiciona margem superior */
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-family: "Poppins", sans-serif; /* Mantém a fonte consistente */
+}
+
+.contact-form textarea {
+  resize: vertical;
+}
+
+.submit-button {
+  padding: 10px 15px;
+  background-color: #ff69b4; /* Cor de destaque */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-family: "Poppins", sans-serif; /* Mantém a fonte consistente */
+}
+
+.submit-button:hover {
+  background-color: #ff1493;
+}
